@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f5f5f5 ;
+} 
+main, 
+header,
+footer {
+    width: 400px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+header {
+    height: 100px;
+    color: white;
+    text-align: left;
+    background-color: #f1d997;
+}
+
+
+.item {
+    border-bottom: 1px solid black;
+    display: grid;
+    
+}
+
+/* images */
+
+
+/* utility */
+
+.hidden {
+    display: none;
+}
+/* typography */
+
+.item-graphic {
+    font-size: 2rem;
+    text-align: left;
+    justify-content: start;
+    align-items: center;
+}
+
+.emoji-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item-name {
+    font-weight: bold;
+    font-size: 1fr;
+    margin: 0;
+}
+
+.text-box {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.item-description {
+    margin: 0;
+}
+
+
+.item-price {
+    font-weight: bold;
+    margin: 0;
+}
+
+/* .order-box {
+    display: none;
+} */
+
+.order {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.order-price {
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.remove-btn {
+    font-size: 10px;
+    color: grey;
+}
+
+#order-btn {
+    text-align: center;
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 10px 100px;
+}
+
+#pay-btn {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 10px 100px;
+}
+.card-details {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    width: 280px;
+    height: 200px;
+    padding: 25px; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 1px #666;
+    font-weight: bold;
+}
+
+input {
+    width: 300px;
+    gap: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+/* .item-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50px;
+}
+
+.item-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+} */
+
+
+
+.add-btn-box {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+i {
+    font-size: 40px;   
+    cursor: pointer;
+}
+
+i:hover,
+i:focus {
+    color: blue;
+}
+
+
+.hidden {
+    display: none;
+}

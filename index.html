@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <!-- Font awesome -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+       integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+
+        <header>
+            <h1>Jimmy's Diner</h1>
+            <h2>The best burgers and pizzas in town.</h2>
+        </header>
+        <main>
+            <div class="item" id="item"></div>
+            <div class="order-box" id="orders"></div>
+
+                <div class="card-details hidden" id="completeBtn">Enter card details
+                    <form action="post">
+                        <input type="text" name="fullname" id="fullname" placeholder="Enter your name" required>
+                        <input type="text" name="cardnumber" id="cardnumber" placeholder="Enter card number" required>
+                        <input type="text" name="cardcode" id="cardcode" placeholder="Enter CVV" required>
+                        <button id="pay-btn">Pay</button>
+                    </form>
+                </div>
+            
+
+        </main>
+       
+
+        <footer>
+
+        </footer>
+       
+
+
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
